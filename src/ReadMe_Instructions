@@ -1,0 +1,36 @@
+ Tic Tac Toe in the Console:
+
+Step 1: Set up the project
+- Open your preferred Java IDE (Integrated Development Environment) or a text editor.
+- Create a new Java project and give it a suitable name, such as "TicTacToeConsole".
+- Create a new Java class called "TicTacToe" within the project.
+
+Step 2: Design the game board
+- In the "TicTacToe" class, create a 2D array to represent the game board. The array will store the state of each cell on the board.
+- Initialize the array with empty values to represent empty cells.
+
+Step 3: Display the game board
+- Create a method called "displayBoard" that prints the current state of the game board to the console.
+- Use loops to iterate over the 2D array and print the values of each cell.
+
+Step 4: Implement player moves
+- Create a method called "makeMove" that allows players to make their moves.
+- Prompt the current player to enter their move by specifying the row and column of the cell they want to mark.
+- Update the game board array with the player's move.
+
+Step 5: Check for a win or draw
+- Create a method called "checkWin" that checks if a player has won the game.
+- Implement the logic to check for winning conditions, such as three marks in a row, column, or diagonal.
+- If a win is detected, declare the current player as the winner and end the game.
+- If all cells are filled and no win is detected, declare the game as a draw.
+
+Step 6: Implement the game loop
+- Create a method called "playGame" that contains the main game loop.
+- Inside the loop, alternate between the two players and allow them to make their moves.
+- After each move, display the updated game board and check for a win or draw.
+- Continue the loop until a win or draw is detected.
+
+Step 7: Run the game
+- In the main method of the "TicTacToe" class, create an instance of the class and call the "playGame" method to start the game.
+
+That's the basic outline of creating a Java program to play Tic Tac Toe in the console. You can now start implementing each step in detail. Let me know if you need further assistance with any specific step.
